@@ -1,0 +1,33 @@
+   {
+      "title":"MVC Sample Stack",
+      "description":"",
+      "document": "mvc-db-stack",
+      "logo":"_images/SalesStack.png",
+      "enabled":true,
+      "language":"NodeJS",
+      "stack_id" : "mvc-db-stack",
+      "type": "stack",
+      "categories": ["MVC", "MongoDB", "Express"],
+      "has_dataset": true,
+      "packages":{
+         "frontend":{
+            "title":"Pattern",
+            "operators":[
+               "MVC"
+            ]
+         },
+         "database":{
+            "title":"Database",
+            "operators":[
+               "MongoDB"
+            ]
+         },
+         "backend":{
+            "title":"Backend",
+            "operators":[
+               "Express"
+            ]
+         }
+      },
+      "installTime":"3 minutes"
+   },

@@ -1,0 +1,54 @@
+{
+    "name": "MVC Database Stack",
+    "type": "stack",
+    "stack_id":"mvc-db-stack",
+    "platform": "kubernetes",
+    "description": "",
+    "logo": "_images/SalesStack.png",
+    "cover": "cover",
+    "meta": {
+        "Language": [
+            "Node Js"
+        ],
+        "Backend": [
+            "Express (NodeJs)"
+        ],
+        "Frontend": [
+            "React"
+        ],
+        "Database": [
+            "MongoDB"
+        ],
+        "Install time": [
+            "3 minutes"
+        ]
+    },
+    "commands": [
+        {
+            "description": "Download MongoDB Manifests",
+            "exec": "cd /home/student/projects  && git clone https://github.com/operator-playground/k8s-manifests"
+        },
+        {
+            "description": "Install MongoDB ",
+            "exec": "cd /home/student/projects/k8s-manifests &&  kubectl create -f mongodb/"
+        },
+        {
+            "description": "Clone the MVC Database application",
+            "exec": "cd /home/student/projects && git clone https://github.com/operator-playground/mvc-db-example"
+        },
+        {
+            "description": "Build and Deploy using Skaffold",
+            "exec": "cd /home/student/projects/mvc-db-example && skaffold config set default-repo localhost:5000 && skaffold run"
+        }
+    ],
+    "content": [
+        "mvc-db-code-tutorial.md"
+    ],
+    "display": [
+        {
+            "name": "Developer Dashboard",
+            "url": "##DNS.host##/codeserver",
+            "enabled": true
+        }
+    ]
+}
