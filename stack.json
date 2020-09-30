@@ -1,7 +1,7 @@
    {
       "title":"MVC Sample Stack",
       "description":"",
-      "document": "mvc-db-stack",
+      "document": "mvc-sample-stack",
       "logo":"_images/SalesStack.png",
       "enabled":true,
       "language":"NodeJS",
