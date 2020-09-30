@@ -1,0 +1,39 @@
+{
+    "name": "MVC Database Stack Tutorial",
+    "appLayout": "accordion",
+	"appTheme": "g90",
+	"footer": "footer.md",
+	"tutorials": [
+	{
+		"description": "The Stack comprises of a MongoDB , Backend and Frontend deployed as Microservices"
+		"duration": "30 min"
+		"foldername": "explore_mvc_database_application"
+		"title": "Explore MVC Database Application"
+	},
+	{
+		"description": "The is the text for sample application"
+		"duration": "3 min"
+		"foldername": "explore_sample_application"
+		"title": "Explore Sample Application"}
+	],
+	"usefulLinks": [
+	 {
+            "title":"Skaffold",
+            "description":"Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code. ",
+            "url":"https://skaffold.dev/"
+     },
+	 {
+			"title":"Dummy Link",
+            "description":"Dummy Link ",
+            "url":"https://www.google.com/"
+	 },
+	],
+	"demos": [
+	{
+			"title":"Dummy Demo Link",
+            "description":"Dummy Link ",
+            "url":"https://www.google.com/"
+	 },
+	],	
+   
+}
