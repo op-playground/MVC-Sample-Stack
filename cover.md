@@ -4,7 +4,7 @@ MVC Database application is based on MEAN stack and provides an good starter to 
 
 ### Architecture
 
-![architecture](_attachments/arch.png)
+![architecture](_images/arch.png)
 
 
 This stack consists of PostgreSQL, Express, React and Node.js. Combining these technologies, one can build a full-stack web application with CRUD operations. Everyone must have heard about MEAN Stack which is basically a JavaScript Stack for the deployment of full-stack web development and contains 4 technologies, namely: MongoDB, Express, React and Node.js. 

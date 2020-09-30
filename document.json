@@ -1,11 +1,11 @@
 {
     "name": "MVC Database Stack",
     "type": "stack",
-    "stack_id":"mvc-db-stack",
+    "stack_id":"mvc-sample-stack",
     "platform": "kubernetes",
     "description": "",
     "logo": "_images/SalesStack.png",
-    "cover": "cover",
+    "cover": "cover.md",
     "meta": {
         "Language": [
             "Node Js"
