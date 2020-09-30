@@ -11,7 +11,7 @@
       "has_dataset": true,
       "git_url": "https://github.com/op-playground/MVC-Sample-Stack.git",
       "git_commit": "3f87fd4abaed413e17618d0e52534e186708fc5f",
-      "git_reponame": "MVC-Sample-Stack"
+      "git_reponame": "MVC-Sample-Stack",
       "packages":{
          "frontend":{
             "title":"Pattern",
