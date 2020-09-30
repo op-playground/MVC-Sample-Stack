@@ -5,7 +5,7 @@
     "platform": "kubernetes",
     "description": "",
     "logo": "_images/SalesStack.png",
-    "cover": "cover",
+    "cover": "cover.md",
     "meta": {
         "Language": [
             "Node Js"
