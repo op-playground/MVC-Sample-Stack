@@ -12,7 +12,7 @@ The example also uses Skaffold which handles the workflow for building, pushing 
 
 Click on the Key icon on the Stack Builder Dashboard and copy the value under the `DNS` section and `IP` field
 
-URL :  http://{DNS.IP}:30455
+URL :  http://##DNS.IP##:30455
 
 ### Code Structure
 
