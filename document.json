@@ -6,7 +6,7 @@
     "description": "",
     "logo": "_images/SalesStack.png",
     "cover": "cover.md",
-    "has_supporting_content": true,
+    "has_supporting_content": false,
     "meta": {
         "Language": [
             "Node Js"
